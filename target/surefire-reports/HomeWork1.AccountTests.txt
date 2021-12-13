@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: HomeWork1.AccountTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.01 s <<< FAILURE! - in HomeWork1.AccountTests
+HomeWork1.AccountTests  Time elapsed: 1.01 s  <<< ERROR!
+java.lang.ClassCastException: io.restassured.internal.RequestSpecificationImpl cannot be cast to io.restassured.specification.ResponseSpecification
+

@@ -13,7 +13,7 @@ String imageDeleteHash;
     void setUp() {
         imageDeleteHash = given()
                 .header("Authorization", token)
-                .body(new File("src/test/resources/img.png"))
+                .body(new File("src/test/resources/r1.jpg"))
                 .when()
                 .post("/image")
                 .jsonPath()
